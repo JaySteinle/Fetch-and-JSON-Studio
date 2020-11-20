@@ -20,6 +20,7 @@ window.addEventListener("load", function() {
                     activeLine = `<font color="red"> Active: ${astronaut.active}</font>`
                 }
             
+                //test
                 container.innerHTML += `<div class="astronaut">
                 <div class = "bio">
                     <h3>${astronaut.firstName} ${astronaut.lastName}</h3>
